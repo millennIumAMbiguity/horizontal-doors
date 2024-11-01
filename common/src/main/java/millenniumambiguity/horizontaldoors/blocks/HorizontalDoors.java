@@ -15,15 +15,7 @@ public enum HorizontalDoors implements IHorizontalDoor {
     BAMBOO_DOOR((DoorBlock)Blocks.BAMBOO_DOOR),
     CRIMSON_DOOR((DoorBlock)Blocks.CRIMSON_DOOR),
     WARPED_DOOR((DoorBlock)Blocks.WARPED_DOOR),
-    IRON_DOOR((DoorBlock)Blocks.IRON_DOOR),
-    COPPER_DOOR((DoorBlock)Blocks.COPPER_DOOR),
-    EXPOSED_COPPER_DOOR((DoorBlock)Blocks.EXPOSED_COPPER_DOOR),
-    WEATHERED_COPPER_DOOR((DoorBlock)Blocks.WEATHERED_COPPER_DOOR),
-    OXIDIZED_COPPER_DOOR((DoorBlock)Blocks.OXIDIZED_COPPER_DOOR),
-    WAXED_COPPER_DOOR((DoorBlock)Blocks.WAXED_COPPER_DOOR),
-    WAXED_EXPOSED_COPPER_DOOR((DoorBlock)Blocks.WAXED_EXPOSED_COPPER_DOOR),
-    WAXED_WEATHERED_COPPER_DOOR((DoorBlock)Blocks.WAXED_WEATHERED_COPPER_DOOR),
-    WAXED_OXIDIZED_COPPER_DOOR((DoorBlock)Blocks.WAXED_OXIDIZED_COPPER_DOOR)
+    IRON_DOOR((DoorBlock)Blocks.IRON_DOOR)
     ;
 
     private final DoorBlock BaseDoorBlock;

@@ -32,11 +32,11 @@ public class HorizontalDoorBlock extends DoorBlock {
     protected static final VoxelShape VS_UP = Block.box(0.0, 13.0, 0.0, 16.0, 16.0, 16.0);
 
     public HorizontalDoorBlock(BlockSetType $$0, BlockBehaviour.Properties $$1) {
-        super($$0, $$1);
+        super($$1, $$0);
     }
 
     public HorizontalDoorBlock(DoorBlock baseDoor) {
-        super(baseDoor.type(), Block.Properties.ofFullCopy(baseDoor));
+        super(Block.Properties.copy(baseDoor), baseDoor.type());
     }
 
     @Override
