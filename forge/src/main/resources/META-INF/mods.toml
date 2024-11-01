@@ -9,7 +9,7 @@ displayName = "${mod_name}"
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional (see https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/)
 displayURL="https://github.com/millennIumAMbiguity/HorizontalDoors" #optional (displayed in the mod UI)
 logoFile = "${mod_id}.png" #optional
-credits = "${credits}"
+credits = "mod by millennIumAMbiguity"
 authors = "${mod_author}"
 description = '''${description}'''
 [[dependencies.${mod_id}]]
