@@ -52,16 +52,17 @@ def process_names(names):
     data = json.loads(json_data)
 
     for name in names:
-        data["block.horizontaldoors.horizontal_" + name] = "Horizontal " + name.replace("_", " ").title()
+        n = name.lower()
+        data["block.horizontaldoors.horizontal_" + n] = "Horizontal " + n.replace("_", " ").title()
         for file_path in files:
-            process_file(file_path, name.lower())
+            process_file(file_path, n)
 
     with open(lang_en_us_file, 'w') as new_file:
             new_file.write(json.dumps(data, indent=4))
 
 if __name__ == "__main__":
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Create JSON files by using horizontal_oak_door as template. (does not modify tags) (Example: python process_doors.py spruce_door birch_door)")
+    parser = argparse.ArgumentParser(description="Create JSON files by using horizontal_oak_door as template. (does not modify tags) (Example: python AddDoor.py spruce_door birch_door)")
     
     # Define a positional argument for the list of names
     parser.add_argument('names', nargs='+', help="List of names to process (e.g., Birch Spruce Jungle)")
