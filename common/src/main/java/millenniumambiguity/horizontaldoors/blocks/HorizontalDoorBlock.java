@@ -68,10 +68,11 @@ public class HorizontalDoorBlock extends DoorBlock {
     }
 
     @Override
-    public boolean isPathfindable(BlockState $$0, BlockGetter $$1, BlockPos $$2, PathComputationType $$3) {
-        return switch ($$3) {
+    protected boolean isPathfindable(BlockState $$0, PathComputationType $$1) {
+        return switch ($$1) {
             case LAND, AIR -> !$$0.getValue(OPEN);
             case WATER -> false;
+            default -> throw new MatchException(null, null);
         };
     }
 
