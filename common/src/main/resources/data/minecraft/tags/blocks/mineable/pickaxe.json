@@ -1,14 +1,6 @@
 {
   "replace": false,
   "values": [
-    "horizontaldoors:horizontal_iron_door",
-    "horizontaldoors:horizontal_copper_door",
-    "horizontaldoors:horizontal_exposed_copper_door",
-    "horizontaldoors:horizontal_weathered_copper_door",
-    "horizontaldoors:horizontal_oxidized_copper_door",
-    "horizontaldoors:horizontal_waxed_copper_door",
-    "horizontaldoors:horizontal_waxed_exposed_copper_door",
-    "horizontaldoors:horizontal_waxed_weathered_copper_door",
-    "horizontaldoors:horizontal_waxed_oxidized_copper_door"
+    "horizontaldoors:horizontal_iron_door"
   ]
 }

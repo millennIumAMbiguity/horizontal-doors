@@ -1,7 +1,0 @@
-{
-  "render_type": "minecraft:cutout",
-  "parent": "horizontaldoors:block/template_door_top_up_right",
-  "textures": {
-    "texture": "minecraft:block/oxidized_copper_door_top"
-  }
-}

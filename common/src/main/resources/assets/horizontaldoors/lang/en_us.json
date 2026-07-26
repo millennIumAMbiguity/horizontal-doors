@@ -10,13 +10,5 @@
     "block.horizontaldoors.horizontal_bamboo_door": "Horizontal Bamboo Door",
     "block.horizontaldoors.horizontal_crimson_door": "Horizontal Crimson Door",
     "block.horizontaldoors.horizontal_warped_door": "Horizontal Warped Door",
-    "block.horizontaldoors.horizontal_iron_door": "Horizontal Iron Door",
-    "block.horizontaldoors.horizontal_copper_door": "Horizontal Copper Door",
-    "block.horizontaldoors.horizontal_exposed_copper_door": "Horizontal Exposed Copper Door",
-    "block.horizontaldoors.horizontal_weathered_copper_door": "Horizontal Weathered Copper Door",
-    "block.horizontaldoors.horizontal_oxidized_copper_door": "Horizontal Oxidized Copper Door",
-    "block.horizontaldoors.horizontal_waxed_copper_door": "Horizontal Waxed Copper Door",
-    "block.horizontaldoors.horizontal_waxed_exposed_copper_door": "Horizontal Waxed Exposed Copper Door",
-    "block.horizontaldoors.horizontal_waxed_weathered_copper_door": "Horizontal Waxed Weathered Copper Door",
-    "block.horizontaldoors.horizontal_waxed_oxidized_copper_door": "Horizontal Waxed Oxidized Copper Door"
+    "block.horizontaldoors.horizontal_iron_door": "Horizontal Iron Door"
 }
